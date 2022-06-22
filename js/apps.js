@@ -36,10 +36,10 @@ class UI {
 
   removeBookList(e) {
     if (e.classList.contains("delete")) {
-      if (confirm("Do you want to remove this list!")) {
-        const ui = new UI();
-        e.parentElement.parentElement.remove();
-      }
+      // if (confirm("Do you want to remove this list!")) {
+      const ui = new UI();
+      e.parentElement.parentElement.remove();
+      // }
     }
   }
   // clear fields
